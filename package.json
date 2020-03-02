@@ -1,0 +1,26 @@
+{
+  "name": "go-restful-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:GeekEast/go-restful-api.git",
+  "author": "GeekEast <xiang.tan.p2109@gmail.com>",
+  "scripts": {
+    "start": "ts-node src/express/server.ts",
+    "test": "ts-node src/testing/test.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "autocannon": "^4.6.0",
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/autocannon": "^4.1.0",
+    "@types/express": "^4.17.2",
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^13.7.7"
+  }
+}
