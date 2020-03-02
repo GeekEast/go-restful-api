@@ -10,7 +10,7 @@ const book = {
 
 }
 const instance = acn({
-  url: 'http://localhost:8081/api/books/',
+  url: 'http://localhost:8080/api/books',
   connections: 10,
   duration: 10,
   pipelining: 2,
