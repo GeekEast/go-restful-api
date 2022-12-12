@@ -12,7 +12,7 @@
   "dependencies": {
     "autocannon": "^4.6.0",
     "axios": "^0.19.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "lodash": "^4.17.15",
     "ts-node": "^8.6.2",
     "typescript": "^3.8.3"
